@@ -1,6 +1,6 @@
 import styles from '../styles.js';
 import { robot, discount } from '../assets';
-import GetStarted from './GetStarted.jsx'
+import GetStarted from './GetStarted.jsx';
 
 const Hero = () => (
   <section id="home" className={`flex md:flex-row flex-col ${styles.paddingY}`}>
@@ -24,7 +24,7 @@ const Hero = () => (
       </div>
 
       <h1 className="font-poppins font-semibold ss:text-[68px] text-[52px] text-white ss:leading-[100px] leading-[75px] w-full">
-        Payment Gateway.
+        Payment System.
       </h1>
       <p className={`${styles.paragraph} max-w-[470px] mt-5`}>
         Our team of experts use a methodology to identify the financial solutions that's most likely to fit your needs of the African market. We offer endless possibilities for every business.
